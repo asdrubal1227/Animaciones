@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"     
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp" >
+<TextView
+android:id="@+id/etiqueta"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue"
+
+    android:textColor="@color/white"
+    android:text="@string/texto"
+    android:textSize="20dp"/>
+<TableLayout
+android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="0,1"
+    android:layout_marginTop="10dp">
+<LinearLayout
+android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<Button
+android:id="@+id/boton1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="animar"
+    android:text="Fundido"
+    android:layout_weight="1"/>
+<Button
+android:id="@+id/boton2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="animar"
+    android:text="Movimiento"
+    android:layout_weight="1">
+    </Button>
+    </LinearLayout>
+<LinearLayout
+android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<Button
+android:id="@+id/boton3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="animar"
+    android:text="Anim. secuencial"
+    android:layout_weight="1" />
+<Button
+android:id="@+id/boton4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="animar"
+    android:text="Animac. XML"
+    android:layout_weight="1"/>
+    </LinearLayout>
+<LinearLayout
+android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<Button
+android:id="@+id/boton5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="animar"
+    android:text="PropertiesHolder"
+    android:layout_weight="1"/>
+<Button
+android:id="@+id/boton6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="animar"
+    android:text="ViewAnimator"
+    android:layout_weight="1" />
+    </LinearLayout>
+<LinearLayout
+android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<Button
+android:id="@+id/boton7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="animar"
+    android:text="TypeEvaluator"
+    android:layout_weight="1"/>
+<Button
+android:id="@+id/boton8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="animar"
+    android:text="KeyFrames"
+    android:layout_weight="1"/>
+    </LinearLayout>
+    </TableLayout>
+    </LinearLayout>
